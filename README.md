@@ -1,2 +1,41 @@
-# My-Portfolio
-Here is a my Portfolio. My Projects and developers information are available.
+# 🌐 My Portfolio
+
+Welcome to my personal **Developer Portfolio Website**.  
+This website showcases my **projects, graphics programming work, and technical skills**.
+
+🔗 **Live Demo:**  
+https://sandipgudle121.github.io/portfolio/
+
+---
+
+## 🚀 Features
+
+- Personal developer portfolio
+- Graphics programming demonstrations
+- 3D shapes and rendering examples
+- Lighting and animation effects
+- Project showcase
+- Contact section
+
+---
+
+## 🛠️ Technologies Used
+
+### Web
+- HTML5
+- CSS3
+- JavaScript
+
+### Graphics Programming
+- C
+- C++
+- OpenGL
+
+### Tools
+- Git
+- GitHub
+- GitHub Pages
+
+---
+
+## 📂 Project Structure

@@ -78,6 +78,13 @@ img {
 
 }
 
+project-image1{
+  width: 300px;
+  height: 200px;
+  object-fit:cover; 
+}
+
+
 section {
     padding: 80px 0;
 }

@@ -32,5 +32,3 @@ This website showcases my **projects, graphics programming work, and technical s
 - GitHub Pages
 
 ---
-
-## 📂 Project Structure

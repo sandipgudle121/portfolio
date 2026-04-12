@@ -105,15 +105,13 @@ ul {
 img {
     max-width: 100%;
     height: auto;
-    display: block;
 }
 
 .container {
-    width: min(90%, 1200px);
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
-
+    padding: 0 15px;
 }
 
 section {
@@ -245,8 +243,18 @@ nav {
 }
 
 .nav-links {
-    display: flex;
-    gap: 30px;
+    position: fixed;
+    top: 80px;
+    left: -100%;
+
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: var(--background-light);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    transition: var(--transition);
 }
 
 .nav-links a {
@@ -299,14 +307,9 @@ nav {
 
 /* Hero Section */
 .hero {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    margin-top: 0;
-    padding-top: 80px;
-    position: relative;
-    overflow: hidden;
+    min-height: 100vh;
+    height: auto;
+    padding: 120px 20px 60px;
 }
 
 .hero::before {
@@ -514,7 +517,8 @@ body.dark-mode .hero::before {
 .contact-item i {
     width: 40px;
     height: 40px;
-    min-width: 40px; /* IMPORTANT for alignment */
+    min-width: 40px;
+    /* IMPORTANT for alignment */
     background: var(--gradient);
     color: white;
     border-radius: 50%;
@@ -624,7 +628,7 @@ footer {
     .nav-links {
         position: fixed;
         top: 80px;
-        left: 0;
+        left: -100%;
         width: 100%;
         height: calc(100vh - 80px);
         background-color: var(--background-light);
@@ -641,7 +645,6 @@ footer {
 
     .nav-links.active {
         left: 0;
-        transform: translateX(0);
     }
 
     .hamburger {
@@ -662,7 +665,8 @@ footer {
 
     .hero-buttons {
         flex-direction: column;
-        gap: 15px;
+        align-items: center;
+        width: 100%;
     }
 
     .projects-grid {
@@ -670,8 +674,9 @@ footer {
     }
 
     .about-image::before {
-        left: 0;
         top: 0;
+        left: 0;
+        border-width: 3px;
     }
 }
 

@@ -27,14 +27,17 @@ This website showcases my **projects, graphics programming work, and technical s
 - JavaScript
 
 ### Graphics Programming
+- C#
 - C
 - C++
 - OpenGL
+  
 
 ### Tools
 - Git
 - GitHub
 - GitHub Pages
+- Unity Game Engine
 
 ---
 
